@@ -104,3 +104,78 @@
 # print(b.count("S")) 
 
 
+#condition statements
+# 1
+# age = 32
+# if (age >= 18):
+#     print("Can vote")
+# else:
+#     print("can't vote")
+    
+    #2
+# light = "red"
+# if (light == "red"):
+#         print("stop")
+# elif(light== "green"):  #indentation means proper spacing (curly bracket is not used so)
+#         print("go")
+# elif(light== "yellow"):
+#         print("look")
+
+
+#3
+# num = int(input("Enter the student's marks:\n"))
+
+# if(num>=90):
+#     grade = "A"
+# elif(num>=80 and num<=90):
+#     grade = "B"
+# elif(num>=70 and num>=80 ):
+#     grade = "C"
+# else:
+#     grade = "D"
+    
+#     print("Student got :", grade)
+
+#nesting 
+# age = int(input("Enter the age:\n"))
+# if(age>=18):
+#     if(age>=80):
+#         print("cant")
+#     else:
+#         print("can")
+# else:
+#     print("cant")
+
+#wap to check if a number entered by the user is odd or even
+# num = int(input("Enter the number:\n"))
+# if(num%2 == 0):
+#     p = "even"
+# else:
+#     p = "odd"
+    
+# print("The number you entered is:", p)
+
+
+#wap to find the greatest of 3 numbers entered by the user
+a = int(input("Enter the 1st number:"))
+b = int(input("Enter the 2nd number:"))
+c = int(input("Enter the 3rd number:"))
+if(a>b and a>c):
+   print("The greatest number is first number", a)
+elif(b>a and b>c):
+    print("The greatest number is second number", b)
+elif(c>a and c>b):
+   print("The greatest number is third number", c)
+    
+
+
+
+
+#wap to check if a number is multiple of 7 or not
+# a = int(input("Enter the number:\n"))
+# if(a%7==0):
+#     b= "multiple of 7"
+# else:
+#     b = "not a multiple of 7"
+    
+# print(b)
