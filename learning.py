@@ -182,8 +182,61 @@
 
 
 #list and tuple => array
-age =  [12,34,54,54,34,32]
-print(age)
-print(type(age))
-print(age[3])
-print(len(age))
+# age =  [12,34,54,54,34,32]
+# print(age)
+# print(type(age))
+# print(age[3])
+# print(len(age))
+
+# student  = ["karan", 43,"delhi"]
+# student[0]= "Prayas"  #updated
+# print(student)
+# print(len(student)) # finding the of length list 
+# print(student[1:2])  #slicing
+
+
+#list methods
+# list = [2,56,43,65,2,123]
+# a = ["Prayas", 67,"baral"]
+# list.append(5) #add the value to the last index of the list
+# list.sort() #assending order
+# list.sort(reverse=True) #descending order it also works in the string
+# list.reverse()#reversse the list but not letter by letter it only works for word by word
+# a.reverse()
+# print(a)
+# list.insert(0,56) #insert the value in the list in the given index
+# list.pop(2) #deleted the value of the given index
+# print(list)
+
+
+# #tuples
+# tup = (2,4,5,6,7)
+# print(tup.index(2))   #provides the  index of the given value
+# print(tup.count(2)) #count the no. of value repeated
+
+
+#questions
+
+#wap to ask the user to enter names fo their 3 fav movies & store them in a list
+# mov = []
+# mov.append(input("Enter your 1st fav movies:\n"))
+# mov.append(input("Enter your 1st fav movies:\n"))
+# mov.append(input("Enter your 1st fav movies:\n"))
+
+# print(mov)
+
+#wap to check if a list contains a palindrome of elements 
+
+# list = []
+# list.append(int(input("Enter the list1 value:\n")))
+# list.append(int(input("Enter the list1 value:\n")))
+# list.append(int(input("Enter the list1 value:\n")))
+# print(list)
+# copy = list.copy()
+# copy.reverse()
+
+# if (copy == list):
+#     print("Palindrome")
+# else:
+#     print("Not a palindrome")
+
