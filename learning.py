@@ -157,15 +157,15 @@
 
 
 #wap to find the greatest of 3 numbers entered by the user
-a = int(input("Enter the 1st number:"))
-b = int(input("Enter the 2nd number:"))
-c = int(input("Enter the 3rd number:"))
-if(a>b and a>c):
-   print("The greatest number is first number", a)
-elif(b>a and b>c):
-    print("The greatest number is second number", b)
-elif(c>a and c>b):
-   print("The greatest number is third number", c)
+# a = int(input("Enter the 1st number:"))
+# b = int(input("Enter the 2nd number:"))
+# c = int(input("Enter the 3rd number:"))
+# if(a>b and a>c):
+#    print("The greatest number is first number", a)
+# elif(b>a and b>c):
+#     print("The greatest number is second number", b)
+# elif(c>a and c>b):
+#    print("The greatest number is third number", c)
     
 
 
@@ -179,3 +179,11 @@ elif(c>a and c>b):
 #     b = "not a multiple of 7"
     
 # print(b)
+
+
+#list and tuple => array
+age =  [12,34,54,54,34,32]
+print(age)
+print(type(age))
+print(age[3])
+print(len(age))
