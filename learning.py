@@ -166,7 +166,9 @@
 #     print("The greatest number is second number", b)
 # elif(c>a and c>b):
 #    print("The greatest number is third number", c)
+
     
+
 
 
 
@@ -240,3 +242,74 @@
 # else:
 #     print("Not a palindrome")
 
+
+
+#dictionay 
+# info = {
+#     "key" : "value",
+#     "name" : "Prayas"
+# }
+
+# info["key"] = "prayas"  #modify the value
+# print(info)
+
+#dictionary methods
+
+student ={
+    "name":"Prayas",
+    "age":45
+}
+# print(student.keys()) #print all the keys
+# print(list(student.keys())) #print all the keys in the list form
+# print(len(list(student.keys()))) #print the no of keys in the list
+
+# print(student.values()) #return the values
+# print(list(student.values()))
+
+# print(student.items()) #return it into tuple
+
+# # print(student.get("age")) #return specified values
+# student.update({"city":"ktm"}) #add values & keys
+# print(student)
+
+
+#set
+# set = {1,2,3,4,5} #if the values is repeated then python ignores that values
+# set1 = {2,3,5,6,8,10}
+# settt = set() #it is the empty set
+# set.add(34)
+# set.remove(3)
+# set.clear()
+# set.pop() #delete any values
+# set3 = set.union(set1)  
+# set4 = set.intersection(set1)
+# print(set4)
+# print(set3)
+# print(len(set3))
+
+#store following word meanings in a python dictionary
+# table = "a piece of furniture", list of facts and figures, cat: "a small animal"
+
+# table = {
+#     "table":["a piece of furniture",
+#     "list of facts and figures"],
+#     "cat":"a small animal"
+# }
+# print(table)
+
+# you are given a list of a subjects for students. Assume one classroom is required for 1 subjects. How many clssrooms are needed by all ths students
+#python, java, c++ python javascript java python jjava c++ c
+
+# set = {
+#     "python", "java", "c++", "python", "javascript", "java", "python", "java", "c++", "c"
+# }
+# print(len(set))
+
+
+#wap to enter marks of 3 subjects from the user and stokre themn in a dictionary. Start with an empty dictioinary and add one by one. Use subject names as key and marksk as value.
+
+# student ={}
+# student.update({input("Enter the key") : input("enter the value")})
+# student.update({input("Enter the key") : input("enter the value")})
+# student.update({input("Enter the key") : input("enter the value")})
+# print(student)
