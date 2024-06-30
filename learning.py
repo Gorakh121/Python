@@ -313,3 +313,43 @@ student ={
 # student.update({input("Enter the key") : input("enter the value")})
 # student.update({input("Enter the key") : input("enter the value")})
 # print(student)
+
+#loop
+
+# count = 1
+# while count<=100:
+#     print("hello",count)
+#     count = count+1
+    
+#print the multiplication table of a number n
+# a = int(input("Enter the no. to be multiplied:"))
+# n = 1
+# while n<=10:
+#     print(a,"*",n,"=" ,a*n)
+#     n +=1
+
+#print the elements of the following list
+#[1,4,9,16,25,36,49,64,81,100]
+
+# a = [1,4,9,16,25,36,49,64,81,100]
+# idx = 0
+# while idx< len(a):
+#     print(a[idx])
+#     idx +=1
+    
+#search for a number  x in the tuple using loop
+# [1,4,9,16,25,36,49,64,81,100]
+
+a = (1,4,9,16,25,36,49,64,81,100)
+x = int(input("Enter the values"))
+i = 0
+
+while i< len(a):
+   if a[i] == x:
+       print("found at index", i)
+   i += 1
+    else:
+    print("not found")
+ 
+     
+ 
