@@ -517,3 +517,52 @@
 
 
 # convert(5)
+
+
+#recursion call itself  repeatedly
+
+# def show(n):
+#     if n==0:   #base  case
+#         return
+#     print(n)
+#     show(n-1)
+    
+# show(5)
+
+
+# def fact(n):
+#     if(n==0 or n==1):
+#         return 1
+#     else:
+#         return n * fact(n-1)
+    
+# print(fact(8))
+
+
+#write a recursive function to calculate the sum of first n natural numbers
+
+# def sum(n):
+#     if(n==0):
+#         return 0
+ 
+#     return sum(n-1) +n
+    
+# print(sum(5))
+
+# def sum(n):
+#     if ( n==0):
+#         return 0
+    
+#     return sum(n-1) +n
+
+# print(sum(6))
+
+#write a recursive function to print all elements in list
+na= [2,45,3,2,5,6,"prayas", "Ram"]
+def print_el(list,idx=0):
+    if idx == len(list):
+        return 0    
+    print(list[idx])
+    print_el(list,idx+1)
+    
+print_el(na)
