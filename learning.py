@@ -255,10 +255,10 @@
 
 #dictionary methods
 
-student ={
-    "name":"Prayas",
-    "age":45
-}
+# student ={
+#     "name":"Prayas",
+#     "age":45
+# }
 # print(student.keys()) #print all the keys
 # print(list(student.keys())) #print all the keys in the list form
 # print(len(list(student.keys()))) #print the no of keys in the list
@@ -340,16 +340,180 @@ student ={
 #search for a number  x in the tuple using loop
 # [1,4,9,16,25,36,49,64,81,100]
 
-a = (1,4,9,16,25,36,49,64,81,100)
-x = int(input("Enter the values"))
-i = 0
+# a = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+# x = int(input("Enter the value: "))
+# i = 0
 
-while i< len(a):
-   if a[i] == x:
-       print("found at index", i)
-   i += 1
-    else:
-    print("not found")
+# while i < len(a):
+#     if a[i] == x:
+#         print("Found at index", i)
+#         break
+#     i += 1
+# else:
+#     print("Not found")
+
+ #printing odd number 
  
-     
+# i = 1
+# while i<=10:
+#     if(i%2==0):
+#         i += 1
+#         continue
+#     print(i)
+#     i += 1
+
+#use of for loop 
+# list = [1,2,3,4,5,6,7]
+
+# for num in list:
+#     print(num)
+
+#for tupple
+# a = (4,5,6,7,7)
+# for num in a:
+#     print(num)
+
+#for loop with else
+# str = "Prayas"
+# for a in str:
+#     if (a == "y"):
+#         print("found",a)
+#         break
+#     print(a)
+# else:
+#     print("END")
+
+#1
+#print the elements of the following list using Loop
+# a= [1,4,9,45,45,45,45,34,23,67,67]
+# for b in a:
+#     print(b) 
  
+ 
+ #2
+ #search for a number x in this tuple using loop
+# a = (45,45,34,23,2,56,7,87,89,565,34,23,1)
+# x = int(input("Enter the number which you want to search:"))
+# index = 0
+# for b in a:
+#     if (x ==b):
+#         print("searched", index)
+#         break
+#     index +=1
+# else:
+#     print("not found")
+   
+   
+#use of range()
+
+# for a in range(10):  #range(stop)
+#     print(a)
+
+# for i in range(2,10): #range (starting and stoping vallue)
+#     print(i)
+
+# for i in range(2,20,2): # start end and increment value
+#     print(i)
+    
+#1
+#print numbers 1 to 100
+# for i in range(1,101):
+#     print(i)
+
+#2
+# #print number from 100 to 1
+# for i in range(100,0,-1):
+#     print(i)
+ 
+ 
+ #multiplication of n
+ 
+# a = int(input("Enter the number which you want to multiply:"))
+# b = range(1,11)
+# for b in b:
+#     print(a,"*",b,"=", a*b)    
+
+#pass statement
+# for i in range(10):
+#     pass  #use for future it is empty 
+
+#1
+#wap to find the sum of first n numbers (using while)
+# i = 0
+# sum= 0
+# while(i<=9):
+#     sum = sum +i
+#     i +=1
+#     print(sum)
+
+
+#2
+#wap to find the factorial of first numbers (using for)
+# n= 5
+# fact = 1
+# i = 1
+# for i in range(1,n+1):
+#     fact = fact*i
+    
+# print(fact)
+
+
+#qr code
+# import qrcode
+# qr_img = qrcode.make("https://www.facebook.com/prayasbaral2765")
+ 
+# qr_img.save("qr.jpg")
+
+#function
+
+# def cal(a,b):
+#     sum = a+b
+#     print(sum)
+#     return sum
+
+# cal(3,4)
+
+#types of function
+#1 built in function   already defined in python
+#2 user defined functions
+
+#1
+#waf to print the length of a list
+
+# b = [2,34,56,"ktm", "prayas"]
+
+# def a(e):
+#     print(len(e))
+
+# a(b)
+
+#waf to print the elements of a list in a single line
+
+# items = [3,5,6,7,7,"Prayas"]
+
+# def y(a):
+#     for b in a:
+#         print(b, end=" ")  #print the value in the single line
+        
+# y(items)
+
+
+#waf to find the factorial
+
+# def a(n):
+#     fact = 1
+#     for i in range(1, n + 1):
+#         fact *= i
+    
+#     print(fact)
+#     return fact
+
+# a(9)
+
+
+# def convert (usd):
+#     nep = usd*130
+#     print(usd, "usd =", nep, "npr")
+
+
+# convert(5)
