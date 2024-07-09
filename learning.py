@@ -558,11 +558,128 @@
 # print(sum(6))
 
 #write a recursive function to print all elements in list
-na= [2,45,3,2,5,6,"prayas", "Ram"]
-def print_el(list,idx=0):
-    if idx == len(list):
-        return 0    
-    print(list[idx])
-    print_el(list,idx+1)
+# na= [2,45,3,2,5,6,"prayas", "Ram"]
+# def print_el(list,idx=0):
+#     if idx == len(list):
+#         return 0    
+#     print(list[idx])
+#     print_el(list,idx+1)
     
-print_el(na)
+# print_el(na)
+
+
+
+#all power is  in within you you can do anything and everything
+
+#file input / output 
+
+# f = open("demo.txt","r") #read method
+# # data = f.read()
+# line1 = f.readline()
+# print(line1)
+# f.close()
+
+
+#write into a file
+
+# f =  open("demo.txt","w")  #it overwrite it deletes all the data in the file 
+
+# f.write("hello world")
+# f.close()
+
+#if file is not exists then we can create with the help of write and append
+
+# f = open("demo.txt", "a")  #it write in the last line of the file
+# f.write("\nhellow sindhuli")
+# f.close()
+
+
+# f = open("demo.txt","r+")  #over write in the starting in the file
+# f.write("abc")
+# print(f.read())  #we can read and write in this r+
+# f.close() 
+
+
+# f = open("demo.txt", "w+")  #it deletes all the data in the file and then we can write in this file
+# print(f.read())
+# f.write("Hello world")
+# print(f.read())
+# f.close()
+
+# f = open("demo.txt", "a+")  #here data wont delete but we can overrite like in append
+# print(f.read())
+# f.write("Hello world")
+# f.close()
+
+# with open("demo.txt","r") as f:
+#      data = f.read()
+#      print(data)
+
+#deleting a file
+
+# import os
+
+# os.remove("demo.txt")
+
+#1
+#create a new file "practice.txt" using python. Add the following data in it:
+# Hi everyone 
+# we are learning file i/o 
+# using python
+# i like programming in python
+
+# with open ("practise.txt","w") as f:
+#     f.write("Hi everyone\n we are learning file i/o\n using python\n i like programming in python")
+    
+#2
+#waf that replace occurence of python with java in above file
+# with open("practise.txt","r") as f:
+#     data = f.read()
+#     new = data.replace("python", "java")
+#     print(new)
+    
+
+# with open("practise.txt", "w") as f:
+#     f.write(new)
+
+#3
+#search if the word "learning" exists in the file or not
+
+# with open("practise.txt","r") as f:
+#      data = f.read()
+#      if(data.find("learning") !=-1):
+#          print("found")
+#      else:
+#          print("not found")
+
+#4
+#waf to find in which line of  the file does the word "learning" occurs first.
+
+# def check():
+#     with open("practise.txt","r") as f:
+#         data = f.read()
+#         if(data.find("learning") !=-1):
+#             print("found")
+#         else:
+#             print("not found")
+
+# def check_for_line():
+#     word = "learning"
+#     data = True
+#     line = 1
+#     with open("practise.txt","r") as f:
+#         while(data):
+#             data = f.readline()
+#             if(word in data):
+#                 print(line)
+#                 return
+#             line +=1
+            
+#     return -1
+
+# print(check_for_line())
+
+# import pywhatkit
+# pywhatkit.sendwhatmsg('+9779803841393','i love you baby',9,48)
+
+
