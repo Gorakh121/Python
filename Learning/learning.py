@@ -680,7 +680,7 @@
 # print(check_for_line())
 
 # import pywhatkit
-# pywhatkit.sendwhatmsg('+9779803841393','i love you baby',9,48)
+# pywhatkit.sendwhatmsg('+number','i love you baby',9,48)
 
 
 # speech to text:
