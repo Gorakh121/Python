@@ -683,3 +683,18 @@
 # pywhatkit.sendwhatmsg('+9779803841393','i love you baby',9,48)
 
 
+# speech to text:
+
+import speech_recognition as sr
+swc = sr.Recognizer()
+
+with sr.Microphone() as src:
+    print("listening.....")
+    audio = swc.listen(src)
+    
+try:
+    text = swc.recognize_google(audio)
+    print("you said", text)
+    
+except:
+    print("error")
