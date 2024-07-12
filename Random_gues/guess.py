@@ -20,7 +20,7 @@ def number_guess ():
                 print("to high")
                 
             else:
-                print("congratulatiion")
+                print("congratulatiion you won")
                 
         except:
             print("please enter the valid number")
