@@ -685,16 +685,31 @@
 
 # speech to text:
 
-import speech_recognition as sr
-swc = sr.Recognizer()
+# import speech_recognition as sr
+# swc = sr.Recognizer()
 
-with sr.Microphone() as src:
+# with sr.Microphone() as src:
+#     print("listening.....")
+#     audio = swc.listen(src)
+    
+# try:
+#     text = swc.recognize_google(audio)
+#     print("you said", text)
+    
+# except:
+#     print("error")
+    
+
+import speech_recognition as p
+sorce = p.Recognizer()
+
+with p.Microphone() as q:
     print("listening.....")
-    audio = swc.listen(src)
+    audio = sorce.listen(q)
     
-try:
-    text = swc.recognize_google(audio)
-    print("you said", text)
-    
-except:
-    print("error")
+    try:
+        text = sorce.recognize_google(audio,)
+        print(text)
+        
+    except:
+        print("invalid")
