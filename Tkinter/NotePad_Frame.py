@@ -1,4 +1,5 @@
 from tkinter import *
+from PIL import Image, ImageTk
 
 def rgb_to_hex(r, g, b):
     return f'#{r:02x}{g:02x}{b:02x}'
@@ -6,6 +7,7 @@ def rgb_to_hex(r, g, b):
 color1 = '#262726'
 
 root = Tk()
+root.wm_iconbitmap("Tkinter/notepad.png")
 root.geometry("444x444")
 root.title("Notepad")
 
@@ -46,14 +48,6 @@ borderwidth=0
 button3.pack(side=LEFT, pady=2)
 button3.pack(padx=2)
 
-f2 = Frame(root)
-f2.pack( fill = X)
-f2.pack(fill = Y)
-
-l2 = Label(f2,
-bg= color1,
-fg="black",
-font=("times new roman",10))
-l2.pack()
+Text(root, font="lucida 13").pack(fill=BOTH)
 
 root.mainloop()
