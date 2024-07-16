@@ -32,6 +32,7 @@ Gender_Check = Checkbutton(text="Male" ,variable=GenderValueMale).grid(column=4,
 Gender_Check_Female = Checkbutton(text="Female", variable=GenderValueFemale).grid(column=5, row=6, pady=5)
 
 def value():
+    print("Submitted")
     with open("data.txt", "w") as f:
         f.write(f"Name: {nameValue.get()}\n")
         f.write(f"Address: {addressValue.get()}\n")
