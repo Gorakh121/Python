@@ -8,8 +8,10 @@ password = Label(root, text="Password")
 username.grid()   #default row = 0
 password.grid(row=1)  #row changes
 
+
 #varialble classes in tkinter
 # BooleanVar , DoubleVar, IntVar, StringVar
+
 
 usernameValue = StringVar()
 passwordValue = StringVar()
