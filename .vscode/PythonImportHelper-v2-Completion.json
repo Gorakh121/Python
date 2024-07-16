@@ -1,0 +1,931 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "turtle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "turtle",
+        "description": "turtle",
+        "detail": "turtle",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "turtle",
+        "description": "turtle",
+        "isExtraImport": true,
+        "detail": "turtle",
+        "documentation": {}
+    },
+    {
+        "label": "colorsys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "colorsys",
+        "description": "colorsys",
+        "detail": "colorsys",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Fernet",
+        "importPath": "cryptography.fernet",
+        "description": "cryptography.fernet",
+        "isExtraImport": true,
+        "detail": "cryptography.fernet",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "Learning.api",
+        "description": "Learning.api",
+        "peekOfCode": "url = \"https://dit.whatsapp.net/deidentified_telemetry\"\npayload = {\n    \"content\": \"hey girl\"\n}\nheader ={\n    \"access_token\": \"245118376424571|3e7d275052f1522bf3200afcf53841a7\",\n    \"credential\": \"KJl7zNn9JhQxO6AShzCR0THl7SF7Y5JgN999LDThc48=+cT6KpfhzSo6bePg1We2wI3YEKGml6CmRk8T_9tMBlho=\"\n}\nmsg = requests.post(url,payload,headers=header)",
+        "detail": "Learning.api",
+        "documentation": {}
+    },
+    {
+        "label": "payload",
+        "kind": 5,
+        "importPath": "Learning.api",
+        "description": "Learning.api",
+        "peekOfCode": "payload = {\n    \"content\": \"hey girl\"\n}\nheader ={\n    \"access_token\": \"245118376424571|3e7d275052f1522bf3200afcf53841a7\",\n    \"credential\": \"KJl7zNn9JhQxO6AShzCR0THl7SF7Y5JgN999LDThc48=+cT6KpfhzSo6bePg1We2wI3YEKGml6CmRk8T_9tMBlho=\"\n}\nmsg = requests.post(url,payload,headers=header)",
+        "detail": "Learning.api",
+        "documentation": {}
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "Learning.api",
+        "description": "Learning.api",
+        "peekOfCode": "msg = requests.post(url,payload,headers=header)",
+        "detail": "Learning.api",
+        "documentation": {}
+    },
+    {
+        "label": "wn",
+        "kind": 5,
+        "importPath": "Learning.art",
+        "description": "Learning.art",
+        "peekOfCode": "wn = turtle.Screen()\nwn.setup(768,76)\nwn.title(\"prayas\")\nwn.bgcolor(\"black\")\n#RAdha\nb = turtle.Turtle()\nb.color('orange')\nb.up()\nb.speed(0)\nb.seth(0)",
+        "detail": "Learning.art",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Learning.art",
+        "description": "Learning.art",
+        "peekOfCode": "b = turtle.Turtle()\nb.color('orange')\nb.up()\nb.speed(0)\nb.seth(0)\nb.fd(22)\nb.seth(90)\nb.fd(103)\nb.down()\nb.circle(50)",
+        "detail": "Learning.art",
+        "documentation": {}
+    },
+    {
+        "label": "sorce",
+        "kind": 5,
+        "importPath": "Learning.learning",
+        "description": "Learning.learning",
+        "peekOfCode": "sorce = p.Recognizer()\nwith p.Microphone() as q:\n    print(\"listening.....\")\n    audio = sorce.listen(q)\n    try:\n        text = sorce.recognize_google(audio,)\n        print(text)\n    except:\n        print(\"invalid\")",
+        "detail": "Learning.learning",
+        "documentation": {}
+    },
+    {
+        "label": "every_100",
+        "kind": 2,
+        "importPath": "Newspaper.News",
+        "description": "Newspaper.News",
+        "peekOfCode": "def every_100(text):\n    final = \"\"\n    for i in range(0, len(text)):\n        final  += text[i]\n        if i%100==0 and i!=0:\n            final += \"\\n\"\n    return final\nroot = Tk()\nroot.geometry(\"1000x1000\")\nroot.title(\"Gorakh NewsPaper\")",
+        "detail": "Newspaper.News",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "Newspaper.News",
+        "description": "Newspaper.News",
+        "peekOfCode": "root = Tk()\nroot.geometry(\"1000x1000\")\nroot.title(\"Gorakh NewsPaper\")\ntexts = []\nphotos = []\nfor i in range(0 , 3):\n    with open(f\"{i+1}.txt\") as f:\n        text = f.read()\n        texts.append(every_100(text))\n    image = Image.open(f\"{i+1}.png\") ",
+        "detail": "Newspaper.News",
+        "documentation": {}
+    },
+    {
+        "label": "texts",
+        "kind": 5,
+        "importPath": "Newspaper.News",
+        "description": "Newspaper.News",
+        "peekOfCode": "texts = []\nphotos = []\nfor i in range(0 , 3):\n    with open(f\"{i+1}.txt\") as f:\n        text = f.read()\n        texts.append(every_100(text))\n    image = Image.open(f\"{i+1}.png\") \n    # todo: resize the image\n    image = image.resize((225,200), resample= Image.LANCZOS)\n    photos.append(ImageTk.PhotoImage(image))",
+        "detail": "Newspaper.News",
+        "documentation": {}
+    },
+    {
+        "label": "photos",
+        "kind": 5,
+        "importPath": "Newspaper.News",
+        "description": "Newspaper.News",
+        "peekOfCode": "photos = []\nfor i in range(0 , 3):\n    with open(f\"{i+1}.txt\") as f:\n        text = f.read()\n        texts.append(every_100(text))\n    image = Image.open(f\"{i+1}.png\") \n    # todo: resize the image\n    image = image.resize((225,200), resample= Image.LANCZOS)\n    photos.append(ImageTk.PhotoImage(image))\nf0 = Frame(root, width= 800, height = 70)",
+        "detail": "Newspaper.News",
+        "documentation": {}
+    },
+    {
+        "label": "f0",
+        "kind": 5,
+        "importPath": "Newspaper.News",
+        "description": "Newspaper.News",
+        "peekOfCode": "f0 = Frame(root, width= 800, height = 70)\nLabel(f0, text=\"Gorakh Newspaper\", font=\"lucida 33 bold\").pack()\nf0.pack()\nLabel(f0, text=\"July 16 2024 \", font=\"lucida 13 bold\").pack()\nf0.pack()\nf1 = Frame(root, width = 900, height = 200,pady=14)\nLabel(f1, text=texts[0], padx=22,pady=22).pack(side=LEFT)\nLabel(f1, image=photos[0], anchor=E).pack()\nf1.pack(anchor=W)\nf2 = Frame(root, width = 900, height = 200, padx=22, pady=14 )",
+        "detail": "Newspaper.News",
+        "documentation": {}
+    },
+    {
+        "label": "f1",
+        "kind": 5,
+        "importPath": "Newspaper.News",
+        "description": "Newspaper.News",
+        "peekOfCode": "f1 = Frame(root, width = 900, height = 200,pady=14)\nLabel(f1, text=texts[0], padx=22,pady=22).pack(side=LEFT)\nLabel(f1, image=photos[0], anchor=E).pack()\nf1.pack(anchor=W)\nf2 = Frame(root, width = 900, height = 200, padx=22, pady=14 )\nLabel(f2, text=texts[1], padx=22,pady=22).pack(side=RIGHT)\nLabel(f2, image=photos[1], anchor=E).pack()\nf2.pack(anchor=W)\nf3 = Frame(root, width = 900, height = 200,  pady=14)\nLabel(f3, text=texts[2], padx=22,pady=22).pack(side=LEFT)",
+        "detail": "Newspaper.News",
+        "documentation": {}
+    },
+    {
+        "label": "f2",
+        "kind": 5,
+        "importPath": "Newspaper.News",
+        "description": "Newspaper.News",
+        "peekOfCode": "f2 = Frame(root, width = 900, height = 200, padx=22, pady=14 )\nLabel(f2, text=texts[1], padx=22,pady=22).pack(side=RIGHT)\nLabel(f2, image=photos[1], anchor=E).pack()\nf2.pack(anchor=W)\nf3 = Frame(root, width = 900, height = 200,  pady=14)\nLabel(f3, text=texts[2], padx=22,pady=22).pack(side=LEFT)\nLabel(f3, image=photos[2], anchor=E,padx=20).pack()\nf3.pack(anchor=W)\nroot.mainloop()",
+        "detail": "Newspaper.News",
+        "documentation": {}
+    },
+    {
+        "label": "f3",
+        "kind": 5,
+        "importPath": "Newspaper.News",
+        "description": "Newspaper.News",
+        "peekOfCode": "f3 = Frame(root, width = 900, height = 200,  pady=14)\nLabel(f3, text=texts[2], padx=22,pady=22).pack(side=LEFT)\nLabel(f3, image=photos[2], anchor=E,padx=20).pack()\nf3.pack(anchor=W)\nroot.mainloop()",
+        "detail": "Newspaper.News",
+        "documentation": {}
+    },
+    {
+        "label": "write_key",
+        "kind": 2,
+        "importPath": "Password_Manager.Pass",
+        "description": "Password_Manager.Pass",
+        "peekOfCode": "def write_key():\n    key = Fernet.generate_key()\n    with open(\"key.key\",\"wb\") as key_file:\n        key_file.write(key)\nwrite_key()\ndef load_key():\n    file =open(\"key.key\",\"rb\")\n    key = file.read()\n    file.close()\n    return key",
+        "detail": "Password_Manager.Pass",
+        "documentation": {}
+    },
+    {
+        "label": "load_key",
+        "kind": 2,
+        "importPath": "Password_Manager.Pass",
+        "description": "Password_Manager.Pass",
+        "peekOfCode": "def load_key():\n    file =open(\"key.key\",\"rb\")\n    key = file.read()\n    file.close()\n    return key\nkey = load_key()\nfer = Fernet(key)\ndef add():\n    name = input(\"User name: \")\n    pwd = input(\"Password: \")",
+        "detail": "Password_Manager.Pass",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Password_Manager.Pass",
+        "description": "Password_Manager.Pass",
+        "peekOfCode": "def add():\n    name = input(\"User name: \")\n    pwd = input(\"Password: \")\n    with open(\"Password.txt\", \"a\") as f:\n        f.write(name+ \"|\" + fer.encrypt(pwd.encode()).decode()+\"\\n\")\ndef view():\n    with open(\"Password.txt\",\"r\") as f:\n        for line in f.readlines():\n            data = line.rstrip() #it will remove the return line \n            Username, password = data.split(\"|\")",
+        "detail": "Password_Manager.Pass",
+        "documentation": {}
+    },
+    {
+        "label": "view",
+        "kind": 2,
+        "importPath": "Password_Manager.Pass",
+        "description": "Password_Manager.Pass",
+        "peekOfCode": "def view():\n    with open(\"Password.txt\",\"r\") as f:\n        for line in f.readlines():\n            data = line.rstrip() #it will remove the return line \n            Username, password = data.split(\"|\")\n            print(\"user:\",Username,\"Password:\",fer.decrypt(password.encode()).decode())\nwhile True:\n    choice = input(\"Please enter what you want to do: view, add or q to exit: \").lower()\n    if choice == \"q\":\n        break",
+        "detail": "Password_Manager.Pass",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "kind": 5,
+        "importPath": "Password_Manager.Pass",
+        "description": "Password_Manager.Pass",
+        "peekOfCode": "key = load_key()\nfer = Fernet(key)\ndef add():\n    name = input(\"User name: \")\n    pwd = input(\"Password: \")\n    with open(\"Password.txt\", \"a\") as f:\n        f.write(name+ \"|\" + fer.encrypt(pwd.encode()).decode()+\"\\n\")\ndef view():\n    with open(\"Password.txt\",\"r\") as f:\n        for line in f.readlines():",
+        "detail": "Password_Manager.Pass",
+        "documentation": {}
+    },
+    {
+        "label": "fer",
+        "kind": 5,
+        "importPath": "Password_Manager.Pass",
+        "description": "Password_Manager.Pass",
+        "peekOfCode": "fer = Fernet(key)\ndef add():\n    name = input(\"User name: \")\n    pwd = input(\"Password: \")\n    with open(\"Password.txt\", \"a\") as f:\n        f.write(name+ \"|\" + fer.encrypt(pwd.encode()).decode()+\"\\n\")\ndef view():\n    with open(\"Password.txt\",\"r\") as f:\n        for line in f.readlines():\n            data = line.rstrip() #it will remove the return line ",
+        "detail": "Password_Manager.Pass",
+        "documentation": {}
+    },
+    {
+        "label": "number_gues",
+        "kind": 2,
+        "importPath": "Random_gues.guess",
+        "description": "Random_gues.guess",
+        "peekOfCode": "def number_guess ():\n    number_to_guess = random.randint(1,100)\n    number_of_attempt = 0\n    guess = None\n    print(\"WELCOME TO NUMBER GUESSING GAME\")\n    print(\"I'm thinking between 1 to 100 you have to guess that number\")\n    while guess != number_to_guess:\n        try:\n            guess= int(input(\"Enter your guess:\"))\n            number_of_attempt +=1",
+        "detail": "Random_gues.guess",
+        "documentation": {}
+    },
+    {
+        "label": "rock",
+        "kind": 5,
+        "importPath": "Rock. Paper. Scissors Game.game",
+        "description": "Rock. Paper. Scissors Game.game",
+        "peekOfCode": "rock = \"rock\"\npaper = \"paper\"\nscissor = \"scissor\" \np = [rock, paper ,scissor]\nuser_Choice = int(input(\"Enter your choice:type 0 for rock,1 for paper, 2 for scissor:\"))\nprint(\"User Choice\")\nprint(p[user_Choice])\nif user_Choice >=3 or user_Choice <0:\n    print(\"INVALID NUMBER\")\n    exit",
+        "detail": "Rock. Paper. Scissors Game.game",
+        "documentation": {}
+    },
+    {
+        "label": "paper",
+        "kind": 5,
+        "importPath": "Rock. Paper. Scissors Game.game",
+        "description": "Rock. Paper. Scissors Game.game",
+        "peekOfCode": "paper = \"paper\"\nscissor = \"scissor\" \np = [rock, paper ,scissor]\nuser_Choice = int(input(\"Enter your choice:type 0 for rock,1 for paper, 2 for scissor:\"))\nprint(\"User Choice\")\nprint(p[user_Choice])\nif user_Choice >=3 or user_Choice <0:\n    print(\"INVALID NUMBER\")\n    exit\nelse:",
+        "detail": "Rock. Paper. Scissors Game.game",
+        "documentation": {}
+    },
+    {
+        "label": "scissor",
+        "kind": 5,
+        "importPath": "Rock. Paper. Scissors Game.game",
+        "description": "Rock. Paper. Scissors Game.game",
+        "peekOfCode": "scissor = \"scissor\" \np = [rock, paper ,scissor]\nuser_Choice = int(input(\"Enter your choice:type 0 for rock,1 for paper, 2 for scissor:\"))\nprint(\"User Choice\")\nprint(p[user_Choice])\nif user_Choice >=3 or user_Choice <0:\n    print(\"INVALID NUMBER\")\n    exit\nelse:\n    computer_Choice = random.randint(0,2)",
+        "detail": "Rock. Paper. Scissors Game.game",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Rock. Paper. Scissors Game.game",
+        "description": "Rock. Paper. Scissors Game.game",
+        "peekOfCode": "p = [rock, paper ,scissor]\nuser_Choice = int(input(\"Enter your choice:type 0 for rock,1 for paper, 2 for scissor:\"))\nprint(\"User Choice\")\nprint(p[user_Choice])\nif user_Choice >=3 or user_Choice <0:\n    print(\"INVALID NUMBER\")\n    exit\nelse:\n    computer_Choice = random.randint(0,2)\n    print(\"computer Choice\")",
+        "detail": "Rock. Paper. Scissors Game.game",
+        "documentation": {}
+    },
+    {
+        "label": "user_Choice",
+        "kind": 5,
+        "importPath": "Rock. Paper. Scissors Game.game",
+        "description": "Rock. Paper. Scissors Game.game",
+        "peekOfCode": "user_Choice = int(input(\"Enter your choice:type 0 for rock,1 for paper, 2 for scissor:\"))\nprint(\"User Choice\")\nprint(p[user_Choice])\nif user_Choice >=3 or user_Choice <0:\n    print(\"INVALID NUMBER\")\n    exit\nelse:\n    computer_Choice = random.randint(0,2)\n    print(\"computer Choice\")\n    print(p[computer_Choice])",
+        "detail": "Rock. Paper. Scissors Game.game",
+        "documentation": {}
+    },
+    {
+        "label": "rgb_to_hex",
+        "kind": 2,
+        "importPath": "Tkinter.Button",
+        "description": "Tkinter.Button",
+        "peekOfCode": "def rgb_to_hex(r, g, b):\n    return f'#{r:02x}{g:02x}{b:02x}'\nroot = Tk()\nroot.geometry(\"444x444\")\nframe = Frame(root)\nframe.pack(side= LEFT , anchor=NW)\nb1 = Button(frame, fg=\"red\", text=\"prayas\",\nactivebackground = rgb_to_hex(45, 45, 44),  #backgroung color changes when we click \nactiveforeground=  rgb_to_hex(45, 45, 44)  # text color changes when we click\n)",
+        "detail": "Tkinter.Button",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "Tkinter.Button",
+        "description": "Tkinter.Button",
+        "peekOfCode": "root = Tk()\nroot.geometry(\"444x444\")\nframe = Frame(root)\nframe.pack(side= LEFT , anchor=NW)\nb1 = Button(frame, fg=\"red\", text=\"prayas\",\nactivebackground = rgb_to_hex(45, 45, 44),  #backgroung color changes when we click \nactiveforeground=  rgb_to_hex(45, 45, 44)  # text color changes when we click\n)\nb1.pack()\nroot.mainloop()",
+        "detail": "Tkinter.Button",
+        "documentation": {}
+    },
+    {
+        "label": "frame",
+        "kind": 5,
+        "importPath": "Tkinter.Button",
+        "description": "Tkinter.Button",
+        "peekOfCode": "frame = Frame(root)\nframe.pack(side= LEFT , anchor=NW)\nb1 = Button(frame, fg=\"red\", text=\"prayas\",\nactivebackground = rgb_to_hex(45, 45, 44),  #backgroung color changes when we click \nactiveforeground=  rgb_to_hex(45, 45, 44)  # text color changes when we click\n)\nb1.pack()\nroot.mainloop()",
+        "detail": "Tkinter.Button",
+        "documentation": {}
+    },
+    {
+        "label": "b1",
+        "kind": 5,
+        "importPath": "Tkinter.Button",
+        "description": "Tkinter.Button",
+        "peekOfCode": "b1 = Button(frame, fg=\"red\", text=\"prayas\",\nactivebackground = rgb_to_hex(45, 45, 44),  #backgroung color changes when we click \nactiveforeground=  rgb_to_hex(45, 45, 44)  # text color changes when we click\n)\nb1.pack()\nroot.mainloop()",
+        "detail": "Tkinter.Button",
+        "documentation": {}
+    },
+    {
+        "label": "activebackground",
+        "kind": 5,
+        "importPath": "Tkinter.Button",
+        "description": "Tkinter.Button",
+        "peekOfCode": "activebackground = rgb_to_hex(45, 45, 44),  #backgroung color changes when we click \nactiveforeground=  rgb_to_hex(45, 45, 44)  # text color changes when we click\n)\nb1.pack()\nroot.mainloop()",
+        "detail": "Tkinter.Button",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "Tkinter.frame",
+        "description": "Tkinter.frame",
+        "peekOfCode": "root = Tk()\nroot.geometry(\"444x444\")\nf1 = Frame(root, bg=\"red\", borderwidth=6 , relief=SUNKEN)\nf1.pack(side=LEFT, fill=Y)\nf2 = Frame(root, bg=\"blue\", borderwidth=8, relief=SUNKEN)\nf2.pack(fill=X)\nl1 = Label(f1,text=\"prays - text editor\")\nl1.pack( pady=142 )\nl2 = Label(f2,text=\"Welcome to Pras world\" , font=(\"times new roman\",19,\"italic\"))\nl2.pack(side=TOP   )",
+        "detail": "Tkinter.frame",
+        "documentation": {}
+    },
+    {
+        "label": "f1",
+        "kind": 5,
+        "importPath": "Tkinter.frame",
+        "description": "Tkinter.frame",
+        "peekOfCode": "f1 = Frame(root, bg=\"red\", borderwidth=6 , relief=SUNKEN)\nf1.pack(side=LEFT, fill=Y)\nf2 = Frame(root, bg=\"blue\", borderwidth=8, relief=SUNKEN)\nf2.pack(fill=X)\nl1 = Label(f1,text=\"prays - text editor\")\nl1.pack( pady=142 )\nl2 = Label(f2,text=\"Welcome to Pras world\" , font=(\"times new roman\",19,\"italic\"))\nl2.pack(side=TOP   )\nroot.mainloop()",
+        "detail": "Tkinter.frame",
+        "documentation": {}
+    },
+    {
+        "label": "f2",
+        "kind": 5,
+        "importPath": "Tkinter.frame",
+        "description": "Tkinter.frame",
+        "peekOfCode": "f2 = Frame(root, bg=\"blue\", borderwidth=8, relief=SUNKEN)\nf2.pack(fill=X)\nl1 = Label(f1,text=\"prays - text editor\")\nl1.pack( pady=142 )\nl2 = Label(f2,text=\"Welcome to Pras world\" , font=(\"times new roman\",19,\"italic\"))\nl2.pack(side=TOP   )\nroot.mainloop()",
+        "detail": "Tkinter.frame",
+        "documentation": {}
+    },
+    {
+        "label": "l1",
+        "kind": 5,
+        "importPath": "Tkinter.frame",
+        "description": "Tkinter.frame",
+        "peekOfCode": "l1 = Label(f1,text=\"prays - text editor\")\nl1.pack( pady=142 )\nl2 = Label(f2,text=\"Welcome to Pras world\" , font=(\"times new roman\",19,\"italic\"))\nl2.pack(side=TOP   )\nroot.mainloop()",
+        "detail": "Tkinter.frame",
+        "documentation": {}
+    },
+    {
+        "label": "l2",
+        "kind": 5,
+        "importPath": "Tkinter.frame",
+        "description": "Tkinter.frame",
+        "peekOfCode": "l2 = Label(f2,text=\"Welcome to Pras world\" , font=(\"times new roman\",19,\"italic\"))\nl2.pack(side=TOP   )\nroot.mainloop()",
+        "detail": "Tkinter.frame",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "Tkinter.learning",
+        "description": "Tkinter.learning",
+        "peekOfCode": "root = Tk() #basic gui build\nroot.title(\"Prayas\")\n#width height\nroot.geometry(\"444x444\")\n#width height\nroot.minsize(100,100)\nroot.maxsize(1200,980)\nlabell = Label(text=\"Calculator\") # provides text in the gui\nlabell.pack()\n#images",
+        "detail": "Tkinter.learning",
+        "documentation": {}
+    },
+    {
+        "label": "labell",
+        "kind": 5,
+        "importPath": "Tkinter.learning",
+        "description": "Tkinter.learning",
+        "peekOfCode": "labell = Label(text=\"Calculator\") # provides text in the gui\nlabell.pack()\n#images\n# photo = PhotoImage(file=\"Tkinter/0-02-03-f7610f22968c5ddfc154f405b908ed0881abfb65468ff9f7e366c43db0ed3938_2210bbb286ba0f6c.png\")\n# image_label = Label(image=photo)\n# image_label.pack()\n#for jpg\n# image = Image.open(\"Tkinter/images.jpg\")\n# photo = ImageTk.PhotoImage(image)\n# lavel = Label(image=photo)",
+        "detail": "Tkinter.learning",
+        "documentation": {}
+    },
+    {
+        "label": "text_label",
+        "kind": 5,
+        "importPath": "Tkinter.learning",
+        "description": "Tkinter.learning",
+        "peekOfCode": "text_label = Label(text=\"Rajesh Hamal born 9 June 1964[1]) is a Nepalese \" \n,bg=\"red\",\nfg=\"white\",\npadx=113,\npady=113,\nfont=(\"times new roman\",19,\"italic\"),\nborderwidth=4,\nrelief=SUNKEN)\ntext_label.pack(side=BOTTOM,anchor=\"se\",fill=X,)  #move text to the left and to the south east side\n#gui logic",
+        "detail": "Tkinter.learning",
+        "documentation": {}
+    },
+    {
+        "label": "value",
+        "kind": 2,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "def value():\n    print(\"Submitted\")\n    with open(\"data.txt\", \"w\") as f:\n        f.write(f\"Name: {nameValue.get()}\\n\")\n        f.write(f\"Address: {addressValue.get()}\\n\")\n        f.write(f\"Phone: {PhoneValue.get()}\\n\")\n        f.write(f\"Height: {HeightValue.get()}\\n\")\n        f.write(f\"Weight: {WeightValue.get()}\\n\")\n        f.write(f\"Email: {EmailValue.get()}\\n\")\n        f.write(f\"Gender: {GenderValueMale.get()}\\n\")",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "root = Tk()\nroot.geometry(\"555x555\")\nLabel(root, text=\"Name\").grid(pady=5,row=0)\nLabel(root, text=\"Address\").grid(pady=5,row=1)\nLabel(root, text=\"Phone-Nb\").grid(pady=5,row=2)\nLabel(root, text=\"Height\").grid(pady=5,row=4)\nLabel(root, text=\"Weight\").grid(pady=5,row=3)\nLabel(root, text=\"Email\").grid(pady=5,row=5)\nLabel(root, text=\"Gender\").grid(pady=5,row=6)\nnameValue = StringVar()",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "nameValue",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "nameValue = StringVar()\naddressValue = StringVar()\nPhoneValue = IntVar()\nHeightValue = IntVar()\nWeightValue = IntVar()\nEmailValue = StringVar()\nGenderValueMale = IntVar()\nGenderValueFemale = IntVar()\nnameEntry = Entry(root, textvariable=nameValue).grid(column=4, row=0,pady=5)\naddressEntry = Entry(root, textvariable=addressValue).grid(column=4, row=1,pady=5)",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "addressValue",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "addressValue = StringVar()\nPhoneValue = IntVar()\nHeightValue = IntVar()\nWeightValue = IntVar()\nEmailValue = StringVar()\nGenderValueMale = IntVar()\nGenderValueFemale = IntVar()\nnameEntry = Entry(root, textvariable=nameValue).grid(column=4, row=0,pady=5)\naddressEntry = Entry(root, textvariable=addressValue).grid(column=4, row=1,pady=5)\nPhoneEntry = Entry(root, textvariable=PhoneValue).grid(column=4, row=2,pady=5)",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "PhoneValue",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "PhoneValue = IntVar()\nHeightValue = IntVar()\nWeightValue = IntVar()\nEmailValue = StringVar()\nGenderValueMale = IntVar()\nGenderValueFemale = IntVar()\nnameEntry = Entry(root, textvariable=nameValue).grid(column=4, row=0,pady=5)\naddressEntry = Entry(root, textvariable=addressValue).grid(column=4, row=1,pady=5)\nPhoneEntry = Entry(root, textvariable=PhoneValue).grid(column=4, row=2,pady=5)\nHeightEntry = Entry(root, textvariable=HeightValue).grid(column=4, row=3,pady=5)",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "HeightValue",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "HeightValue = IntVar()\nWeightValue = IntVar()\nEmailValue = StringVar()\nGenderValueMale = IntVar()\nGenderValueFemale = IntVar()\nnameEntry = Entry(root, textvariable=nameValue).grid(column=4, row=0,pady=5)\naddressEntry = Entry(root, textvariable=addressValue).grid(column=4, row=1,pady=5)\nPhoneEntry = Entry(root, textvariable=PhoneValue).grid(column=4, row=2,pady=5)\nHeightEntry = Entry(root, textvariable=HeightValue).grid(column=4, row=3,pady=5)\nWeightEntry = Entry(root, textvariable=WeightValue).grid(column=4, row=4,pady=5)",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "WeightValue",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "WeightValue = IntVar()\nEmailValue = StringVar()\nGenderValueMale = IntVar()\nGenderValueFemale = IntVar()\nnameEntry = Entry(root, textvariable=nameValue).grid(column=4, row=0,pady=5)\naddressEntry = Entry(root, textvariable=addressValue).grid(column=4, row=1,pady=5)\nPhoneEntry = Entry(root, textvariable=PhoneValue).grid(column=4, row=2,pady=5)\nHeightEntry = Entry(root, textvariable=HeightValue).grid(column=4, row=3,pady=5)\nWeightEntry = Entry(root, textvariable=WeightValue).grid(column=4, row=4,pady=5)\nEmailEntry = Entry(root, textvariable=EmailValue).grid(column=4, row=5,pady=5)",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "EmailValue",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "EmailValue = StringVar()\nGenderValueMale = IntVar()\nGenderValueFemale = IntVar()\nnameEntry = Entry(root, textvariable=nameValue).grid(column=4, row=0,pady=5)\naddressEntry = Entry(root, textvariable=addressValue).grid(column=4, row=1,pady=5)\nPhoneEntry = Entry(root, textvariable=PhoneValue).grid(column=4, row=2,pady=5)\nHeightEntry = Entry(root, textvariable=HeightValue).grid(column=4, row=3,pady=5)\nWeightEntry = Entry(root, textvariable=WeightValue).grid(column=4, row=4,pady=5)\nEmailEntry = Entry(root, textvariable=EmailValue).grid(column=4, row=5,pady=5)\nGender_Check = Checkbutton(text=\"Male\" ,variable=GenderValueMale).grid(column=4, row=6, pady=5)",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "GenderValueMale",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "GenderValueMale = IntVar()\nGenderValueFemale = IntVar()\nnameEntry = Entry(root, textvariable=nameValue).grid(column=4, row=0,pady=5)\naddressEntry = Entry(root, textvariable=addressValue).grid(column=4, row=1,pady=5)\nPhoneEntry = Entry(root, textvariable=PhoneValue).grid(column=4, row=2,pady=5)\nHeightEntry = Entry(root, textvariable=HeightValue).grid(column=4, row=3,pady=5)\nWeightEntry = Entry(root, textvariable=WeightValue).grid(column=4, row=4,pady=5)\nEmailEntry = Entry(root, textvariable=EmailValue).grid(column=4, row=5,pady=5)\nGender_Check = Checkbutton(text=\"Male\" ,variable=GenderValueMale).grid(column=4, row=6, pady=5)\nGender_Check_Female = Checkbutton(text=\"Female\", variable=GenderValueFemale).grid(column=5, row=6, pady=5)",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "GenderValueFemale",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "GenderValueFemale = IntVar()\nnameEntry = Entry(root, textvariable=nameValue).grid(column=4, row=0,pady=5)\naddressEntry = Entry(root, textvariable=addressValue).grid(column=4, row=1,pady=5)\nPhoneEntry = Entry(root, textvariable=PhoneValue).grid(column=4, row=2,pady=5)\nHeightEntry = Entry(root, textvariable=HeightValue).grid(column=4, row=3,pady=5)\nWeightEntry = Entry(root, textvariable=WeightValue).grid(column=4, row=4,pady=5)\nEmailEntry = Entry(root, textvariable=EmailValue).grid(column=4, row=5,pady=5)\nGender_Check = Checkbutton(text=\"Male\" ,variable=GenderValueMale).grid(column=4, row=6, pady=5)\nGender_Check_Female = Checkbutton(text=\"Female\", variable=GenderValueFemale).grid(column=5, row=6, pady=5)\ndef value():",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "nameEntry",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "nameEntry = Entry(root, textvariable=nameValue).grid(column=4, row=0,pady=5)\naddressEntry = Entry(root, textvariable=addressValue).grid(column=4, row=1,pady=5)\nPhoneEntry = Entry(root, textvariable=PhoneValue).grid(column=4, row=2,pady=5)\nHeightEntry = Entry(root, textvariable=HeightValue).grid(column=4, row=3,pady=5)\nWeightEntry = Entry(root, textvariable=WeightValue).grid(column=4, row=4,pady=5)\nEmailEntry = Entry(root, textvariable=EmailValue).grid(column=4, row=5,pady=5)\nGender_Check = Checkbutton(text=\"Male\" ,variable=GenderValueMale).grid(column=4, row=6, pady=5)\nGender_Check_Female = Checkbutton(text=\"Female\", variable=GenderValueFemale).grid(column=5, row=6, pady=5)\ndef value():\n    print(\"Submitted\")",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "addressEntry",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "addressEntry = Entry(root, textvariable=addressValue).grid(column=4, row=1,pady=5)\nPhoneEntry = Entry(root, textvariable=PhoneValue).grid(column=4, row=2,pady=5)\nHeightEntry = Entry(root, textvariable=HeightValue).grid(column=4, row=3,pady=5)\nWeightEntry = Entry(root, textvariable=WeightValue).grid(column=4, row=4,pady=5)\nEmailEntry = Entry(root, textvariable=EmailValue).grid(column=4, row=5,pady=5)\nGender_Check = Checkbutton(text=\"Male\" ,variable=GenderValueMale).grid(column=4, row=6, pady=5)\nGender_Check_Female = Checkbutton(text=\"Female\", variable=GenderValueFemale).grid(column=5, row=6, pady=5)\ndef value():\n    print(\"Submitted\")\n    with open(\"data.txt\", \"w\") as f:",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "PhoneEntry",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "PhoneEntry = Entry(root, textvariable=PhoneValue).grid(column=4, row=2,pady=5)\nHeightEntry = Entry(root, textvariable=HeightValue).grid(column=4, row=3,pady=5)\nWeightEntry = Entry(root, textvariable=WeightValue).grid(column=4, row=4,pady=5)\nEmailEntry = Entry(root, textvariable=EmailValue).grid(column=4, row=5,pady=5)\nGender_Check = Checkbutton(text=\"Male\" ,variable=GenderValueMale).grid(column=4, row=6, pady=5)\nGender_Check_Female = Checkbutton(text=\"Female\", variable=GenderValueFemale).grid(column=5, row=6, pady=5)\ndef value():\n    print(\"Submitted\")\n    with open(\"data.txt\", \"w\") as f:\n        f.write(f\"Name: {nameValue.get()}\\n\")",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "HeightEntry",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "HeightEntry = Entry(root, textvariable=HeightValue).grid(column=4, row=3,pady=5)\nWeightEntry = Entry(root, textvariable=WeightValue).grid(column=4, row=4,pady=5)\nEmailEntry = Entry(root, textvariable=EmailValue).grid(column=4, row=5,pady=5)\nGender_Check = Checkbutton(text=\"Male\" ,variable=GenderValueMale).grid(column=4, row=6, pady=5)\nGender_Check_Female = Checkbutton(text=\"Female\", variable=GenderValueFemale).grid(column=5, row=6, pady=5)\ndef value():\n    print(\"Submitted\")\n    with open(\"data.txt\", \"w\") as f:\n        f.write(f\"Name: {nameValue.get()}\\n\")\n        f.write(f\"Address: {addressValue.get()}\\n\")",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "WeightEntry",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "WeightEntry = Entry(root, textvariable=WeightValue).grid(column=4, row=4,pady=5)\nEmailEntry = Entry(root, textvariable=EmailValue).grid(column=4, row=5,pady=5)\nGender_Check = Checkbutton(text=\"Male\" ,variable=GenderValueMale).grid(column=4, row=6, pady=5)\nGender_Check_Female = Checkbutton(text=\"Female\", variable=GenderValueFemale).grid(column=5, row=6, pady=5)\ndef value():\n    print(\"Submitted\")\n    with open(\"data.txt\", \"w\") as f:\n        f.write(f\"Name: {nameValue.get()}\\n\")\n        f.write(f\"Address: {addressValue.get()}\\n\")\n        f.write(f\"Phone: {PhoneValue.get()}\\n\")",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "EmailEntry",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "EmailEntry = Entry(root, textvariable=EmailValue).grid(column=4, row=5,pady=5)\nGender_Check = Checkbutton(text=\"Male\" ,variable=GenderValueMale).grid(column=4, row=6, pady=5)\nGender_Check_Female = Checkbutton(text=\"Female\", variable=GenderValueFemale).grid(column=5, row=6, pady=5)\ndef value():\n    print(\"Submitted\")\n    with open(\"data.txt\", \"w\") as f:\n        f.write(f\"Name: {nameValue.get()}\\n\")\n        f.write(f\"Address: {addressValue.get()}\\n\")\n        f.write(f\"Phone: {PhoneValue.get()}\\n\")\n        f.write(f\"Height: {HeightValue.get()}\\n\")",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "Gender_Check",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "Gender_Check = Checkbutton(text=\"Male\" ,variable=GenderValueMale).grid(column=4, row=6, pady=5)\nGender_Check_Female = Checkbutton(text=\"Female\", variable=GenderValueFemale).grid(column=5, row=6, pady=5)\ndef value():\n    print(\"Submitted\")\n    with open(\"data.txt\", \"w\") as f:\n        f.write(f\"Name: {nameValue.get()}\\n\")\n        f.write(f\"Address: {addressValue.get()}\\n\")\n        f.write(f\"Phone: {PhoneValue.get()}\\n\")\n        f.write(f\"Height: {HeightValue.get()}\\n\")\n        f.write(f\"Weight: {WeightValue.get()}\\n\")",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "Gender_Check_Female",
+        "kind": 5,
+        "importPath": "Tkinter.Normal_Form",
+        "description": "Tkinter.Normal_Form",
+        "peekOfCode": "Gender_Check_Female = Checkbutton(text=\"Female\", variable=GenderValueFemale).grid(column=5, row=6, pady=5)\ndef value():\n    print(\"Submitted\")\n    with open(\"data.txt\", \"w\") as f:\n        f.write(f\"Name: {nameValue.get()}\\n\")\n        f.write(f\"Address: {addressValue.get()}\\n\")\n        f.write(f\"Phone: {PhoneValue.get()}\\n\")\n        f.write(f\"Height: {HeightValue.get()}\\n\")\n        f.write(f\"Weight: {WeightValue.get()}\\n\")\n        f.write(f\"Email: {EmailValue.get()}\\n\")",
+        "detail": "Tkinter.Normal_Form",
+        "documentation": {}
+    },
+    {
+        "label": "rgb_to_hex",
+        "kind": 2,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "def rgb_to_hex(r, g, b):\n    return f'#{r:02x}{g:02x}{b:02x}'\ncolor1 = '#262726'\nroot = Tk()\nroot.wm_iconbitmap(\"Tkinter/notepad.png\")\nroot.geometry(\"444x444\")\nroot.title(\"Notepad\")\nf1 = Frame(root, bg=rgb_to_hex(45, 45, 44) , borderwidth=4)\nf1.pack( fill = X)\nbutton1 = Button(f1 ,",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "color1",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "color1 = '#262726'\nroot = Tk()\nroot.wm_iconbitmap(\"Tkinter/notepad.png\")\nroot.geometry(\"444x444\")\nroot.title(\"Notepad\")\nf1 = Frame(root, bg=rgb_to_hex(45, 45, 44) , borderwidth=4)\nf1.pack( fill = X)\nbutton1 = Button(f1 ,\ntext = \"File\",\nbg = rgb_to_hex(45, 45, 44),",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "root = Tk()\nroot.wm_iconbitmap(\"Tkinter/notepad.png\")\nroot.geometry(\"444x444\")\nroot.title(\"Notepad\")\nf1 = Frame(root, bg=rgb_to_hex(45, 45, 44) , borderwidth=4)\nf1.pack( fill = X)\nbutton1 = Button(f1 ,\ntext = \"File\",\nbg = rgb_to_hex(45, 45, 44),\nactivebackground = rgb_to_hex(45, 45, 44),",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "f1",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "f1 = Frame(root, bg=rgb_to_hex(45, 45, 44) , borderwidth=4)\nf1.pack( fill = X)\nbutton1 = Button(f1 ,\ntext = \"File\",\nbg = rgb_to_hex(45, 45, 44),\nactivebackground = rgb_to_hex(45, 45, 44),\nactiveforeground=\"white\",\nfg = \"white\",\nborderwidth=0\n)",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "button1",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "button1 = Button(f1 ,\ntext = \"File\",\nbg = rgb_to_hex(45, 45, 44),\nactivebackground = rgb_to_hex(45, 45, 44),\nactiveforeground=\"white\",\nfg = \"white\",\nborderwidth=0\n)\nbutton1.pack(side=LEFT, pady=2)\nbutton1.pack(padx=2)",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "text = \"File\",\nbg = rgb_to_hex(45, 45, 44),\nactivebackground = rgb_to_hex(45, 45, 44),\nactiveforeground=\"white\",\nfg = \"white\",\nborderwidth=0\n)\nbutton1.pack(side=LEFT, pady=2)\nbutton1.pack(padx=2)\nbutton2 = Button(f1 ,",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "bg",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "bg = rgb_to_hex(45, 45, 44),\nactivebackground = rgb_to_hex(45, 45, 44),\nactiveforeground=\"white\",\nfg = \"white\",\nborderwidth=0\n)\nbutton1.pack(side=LEFT, pady=2)\nbutton1.pack(padx=2)\nbutton2 = Button(f1 ,\ntext=\"Edit\",",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "activebackground",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "activebackground = rgb_to_hex(45, 45, 44),\nactiveforeground=\"white\",\nfg = \"white\",\nborderwidth=0\n)\nbutton1.pack(side=LEFT, pady=2)\nbutton1.pack(padx=2)\nbutton2 = Button(f1 ,\ntext=\"Edit\",\nbg=rgb_to_hex(45, 45, 44),",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "fg",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "fg = \"white\",\nborderwidth=0\n)\nbutton1.pack(side=LEFT, pady=2)\nbutton1.pack(padx=2)\nbutton2 = Button(f1 ,\ntext=\"Edit\",\nbg=rgb_to_hex(45, 45, 44),\nfg=\"white\",\nactivebackground = rgb_to_hex(45, 45, 44),",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "button2",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "button2 = Button(f1 ,\ntext=\"Edit\",\nbg=rgb_to_hex(45, 45, 44),\nfg=\"white\",\nactivebackground = rgb_to_hex(45, 45, 44),\nactiveforeground=\"white\",\nborderwidth=0\n)\nbutton2.pack(side=LEFT, pady=2)\nbutton2.pack(padx=15)",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "activebackground",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "activebackground = rgb_to_hex(45, 45, 44),\nactiveforeground=\"white\",\nborderwidth=0\n)\nbutton2.pack(side=LEFT, pady=2)\nbutton2.pack(padx=15)\nbutton3 = Button(f1 ,\ntext=\"View\",\nbg=rgb_to_hex(45, 45, 44),\nfg=\"white\",",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "button3",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "button3 = Button(f1 ,\ntext=\"View\",\nbg=rgb_to_hex(45, 45, 44),\nfg=\"white\",\nactivebackground = rgb_to_hex(45, 45, 44),\nactiveforeground=\"white\",\nborderwidth=0\n)\nbutton3.pack(side=LEFT, pady=2)\nbutton3.pack(padx=2)",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "activebackground",
+        "kind": 5,
+        "importPath": "Tkinter.NotePad_Frame",
+        "description": "Tkinter.NotePad_Frame",
+        "peekOfCode": "activebackground = rgb_to_hex(45, 45, 44),\nactiveforeground=\"white\",\nborderwidth=0\n)\nbutton3.pack(side=LEFT, pady=2)\nbutton3.pack(padx=2)\nText(root, font=\"lucida 13\").pack(fill=BOTH)\nroot.mainloop()",
+        "detail": "Tkinter.NotePad_Frame",
+        "documentation": {}
+    },
+    {
+        "label": "value",
+        "kind": 2,
+        "importPath": "Tkinter.Width_Grid",
+        "description": "Tkinter.Width_Grid",
+        "peekOfCode": "def value():\n    print(\"Username:\",usernameValue.get())\n    print(\"Password\", passwordValue.get())\nButton(text=\"Submit\", command=value).grid(column=1)\nroot.mainloop()",
+        "detail": "Tkinter.Width_Grid",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "Tkinter.Width_Grid",
+        "description": "Tkinter.Width_Grid",
+        "peekOfCode": "root = Tk()\nroot.geometry(\"444x444\")\nusername = Label(root, text=\"Username\")\npassword = Label(root, text=\"Password\")\nusername.grid()   #default row = 0\npassword.grid(row=1)  #row changes\n#varialble classes in tkinter\n# BooleanVar , DoubleVar, IntVar, StringVar\nusernameValue = StringVar()\npasswordValue = StringVar()",
+        "detail": "Tkinter.Width_Grid",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "Tkinter.Width_Grid",
+        "description": "Tkinter.Width_Grid",
+        "peekOfCode": "username = Label(root, text=\"Username\")\npassword = Label(root, text=\"Password\")\nusername.grid()   #default row = 0\npassword.grid(row=1)  #row changes\n#varialble classes in tkinter\n# BooleanVar , DoubleVar, IntVar, StringVar\nusernameValue = StringVar()\npasswordValue = StringVar()\nuserentry = Entry(root , textvariable=usernameValue)\npasswordentry = Entry(root , textvariable=passwordValue)",
+        "detail": "Tkinter.Width_Grid",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "Tkinter.Width_Grid",
+        "description": "Tkinter.Width_Grid",
+        "peekOfCode": "password = Label(root, text=\"Password\")\nusername.grid()   #default row = 0\npassword.grid(row=1)  #row changes\n#varialble classes in tkinter\n# BooleanVar , DoubleVar, IntVar, StringVar\nusernameValue = StringVar()\npasswordValue = StringVar()\nuserentry = Entry(root , textvariable=usernameValue)\npasswordentry = Entry(root , textvariable=passwordValue)\nuserentry.grid(row=0, column=1)",
+        "detail": "Tkinter.Width_Grid",
+        "documentation": {}
+    },
+    {
+        "label": "usernameValue",
+        "kind": 5,
+        "importPath": "Tkinter.Width_Grid",
+        "description": "Tkinter.Width_Grid",
+        "peekOfCode": "usernameValue = StringVar()\npasswordValue = StringVar()\nuserentry = Entry(root , textvariable=usernameValue)\npasswordentry = Entry(root , textvariable=passwordValue)\nuserentry.grid(row=0, column=1)\npasswordentry.grid(row=1, column=1)\ndef value():\n    print(\"Username:\",usernameValue.get())\n    print(\"Password\", passwordValue.get())\nButton(text=\"Submit\", command=value).grid(column=1)",
+        "detail": "Tkinter.Width_Grid",
+        "documentation": {}
+    },
+    {
+        "label": "passwordValue",
+        "kind": 5,
+        "importPath": "Tkinter.Width_Grid",
+        "description": "Tkinter.Width_Grid",
+        "peekOfCode": "passwordValue = StringVar()\nuserentry = Entry(root , textvariable=usernameValue)\npasswordentry = Entry(root , textvariable=passwordValue)\nuserentry.grid(row=0, column=1)\npasswordentry.grid(row=1, column=1)\ndef value():\n    print(\"Username:\",usernameValue.get())\n    print(\"Password\", passwordValue.get())\nButton(text=\"Submit\", command=value).grid(column=1)\nroot.mainloop()",
+        "detail": "Tkinter.Width_Grid",
+        "documentation": {}
+    },
+    {
+        "label": "userentry",
+        "kind": 5,
+        "importPath": "Tkinter.Width_Grid",
+        "description": "Tkinter.Width_Grid",
+        "peekOfCode": "userentry = Entry(root , textvariable=usernameValue)\npasswordentry = Entry(root , textvariable=passwordValue)\nuserentry.grid(row=0, column=1)\npasswordentry.grid(row=1, column=1)\ndef value():\n    print(\"Username:\",usernameValue.get())\n    print(\"Password\", passwordValue.get())\nButton(text=\"Submit\", command=value).grid(column=1)\nroot.mainloop()",
+        "detail": "Tkinter.Width_Grid",
+        "documentation": {}
+    },
+    {
+        "label": "passwordentry",
+        "kind": 5,
+        "importPath": "Tkinter.Width_Grid",
+        "description": "Tkinter.Width_Grid",
+        "peekOfCode": "passwordentry = Entry(root , textvariable=passwordValue)\nuserentry.grid(row=0, column=1)\npasswordentry.grid(row=1, column=1)\ndef value():\n    print(\"Username:\",usernameValue.get())\n    print(\"Password\", passwordValue.get())\nButton(text=\"Submit\", command=value).grid(column=1)\nroot.mainloop()",
+        "detail": "Tkinter.Width_Grid",
+        "documentation": {}
+    },
+    {
+        "label": "resize",
+        "kind": 2,
+        "importPath": "Window Resizer.window_resizer",
+        "description": "Window Resizer.window_resizer",
+        "peekOfCode": "def resize():\n    width_value = width.get()\n    height_value = height.get()\n    root.geometry(f\"{width_value}x{height_value}\")\nroot.title(\"Window Resizer\")\nLabel(text=\"Window Resizer\", font=\"comicsansms 11 bold\", pady=20).grid(column=2)\nLabel(text=\"Width: \", font=\"comicsansms 11\").grid(row=1, column=1)\nLabel(text=\"Height: \", font=\"comicsansms 11\").grid(row=2, column=1)\nwidth = StringVar()\nheight = StringVar()",
+        "detail": "Window Resizer.window_resizer",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "Window Resizer.window_resizer",
+        "description": "Window Resizer.window_resizer",
+        "peekOfCode": "root = Tk()\nroot.geometry(\"250x200\")\ndef resize():\n    width_value = width.get()\n    height_value = height.get()\n    root.geometry(f\"{width_value}x{height_value}\")\nroot.title(\"Window Resizer\")\nLabel(text=\"Window Resizer\", font=\"comicsansms 11 bold\", pady=20).grid(column=2)\nLabel(text=\"Width: \", font=\"comicsansms 11\").grid(row=1, column=1)\nLabel(text=\"Height: \", font=\"comicsansms 11\").grid(row=2, column=1)",
+        "detail": "Window Resizer.window_resizer",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "Window Resizer.window_resizer",
+        "description": "Window Resizer.window_resizer",
+        "peekOfCode": "width = StringVar()\nheight = StringVar()\nwidth_entry = Entry(root, textvariable=width).grid(row=1, column=2)\nheight_entry = Entry(root, textvariable=height).grid(row=2, column=2)\nButton(text=\"Apply\", command=resize, pady=2, font=\"comicsansms 11\").grid(column=2)\nroot.mainloop()",
+        "detail": "Window Resizer.window_resizer",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "Window Resizer.window_resizer",
+        "description": "Window Resizer.window_resizer",
+        "peekOfCode": "height = StringVar()\nwidth_entry = Entry(root, textvariable=width).grid(row=1, column=2)\nheight_entry = Entry(root, textvariable=height).grid(row=2, column=2)\nButton(text=\"Apply\", command=resize, pady=2, font=\"comicsansms 11\").grid(column=2)\nroot.mainloop()",
+        "detail": "Window Resizer.window_resizer",
+        "documentation": {}
+    },
+    {
+        "label": "width_entry",
+        "kind": 5,
+        "importPath": "Window Resizer.window_resizer",
+        "description": "Window Resizer.window_resizer",
+        "peekOfCode": "width_entry = Entry(root, textvariable=width).grid(row=1, column=2)\nheight_entry = Entry(root, textvariable=height).grid(row=2, column=2)\nButton(text=\"Apply\", command=resize, pady=2, font=\"comicsansms 11\").grid(column=2)\nroot.mainloop()",
+        "detail": "Window Resizer.window_resizer",
+        "documentation": {}
+    },
+    {
+        "label": "height_entry",
+        "kind": 5,
+        "importPath": "Window Resizer.window_resizer",
+        "description": "Window Resizer.window_resizer",
+        "peekOfCode": "height_entry = Entry(root, textvariable=height).grid(row=2, column=2)\nButton(text=\"Apply\", command=resize, pady=2, font=\"comicsansms 11\").grid(column=2)\nroot.mainloop()",
+        "detail": "Window Resizer.window_resizer",
+        "documentation": {}
+    }
+]
