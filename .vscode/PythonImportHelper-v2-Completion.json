@@ -108,6 +108,14 @@
         "documentation": {}
     },
     {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
         "label": "ImageTk",
         "importPath": "PIL",
         "description": "PIL",
@@ -224,6 +232,42 @@
         "description": "Learning.learning",
         "peekOfCode": "sorce = p.Recognizer()\nwith p.Microphone() as q:\n    print(\"listening.....\")\n    audio = sorce.listen(q)\n    try:\n        text = sorce.recognize_google(audio,)\n        print(text)\n    except:\n        print(\"invalid\")",
         "detail": "Learning.learning",
+        "documentation": {}
+    },
+    {
+        "label": "myfunc",
+        "kind": 2,
+        "importPath": "Menus.menu",
+        "description": "Menus.menu",
+        "peekOfCode": "def myfunc():\n    print(\"Hello world\")\n# # todo : use to create non dropdown menu\n# mymenu = Menu(root)\n# mymenu.add_command(label=\"File\", command=myfunc)\n# mymenu.add_command(label=\"Edit\", command=quit)\n# root.config(menu=mymenu)\nyourmenu = Menu(root)\nm1 = Menu(yourmenu, tearoff=0) # todo remove the unwanted menu tearoff\nm1.add_command(label=\"Save\", command=myfunc)",
+        "detail": "Menus.menu",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "Menus.menu",
+        "description": "Menus.menu",
+        "peekOfCode": "root = Tk()\nroot.geometry(\"444x444\")\ndef myfunc():\n    print(\"Hello world\")\n# # todo : use to create non dropdown menu\n# mymenu = Menu(root)\n# mymenu.add_command(label=\"File\", command=myfunc)\n# mymenu.add_command(label=\"Edit\", command=quit)\n# root.config(menu=mymenu)\nyourmenu = Menu(root)",
+        "detail": "Menus.menu",
+        "documentation": {}
+    },
+    {
+        "label": "yourmenu",
+        "kind": 5,
+        "importPath": "Menus.menu",
+        "description": "Menus.menu",
+        "peekOfCode": "yourmenu = Menu(root)\nm1 = Menu(yourmenu, tearoff=0) # todo remove the unwanted menu tearoff\nm1.add_command(label=\"Save\", command=myfunc)\nm1.add_command(label=\"Open\", command=myfunc)\nm1.add_separator()  #todo:  underline in the menubar\nm1.add_command(label=\"New Project\", command=myfunc)\nyourmenu.add_cascade(label=\"File\", menu=m1)\nroot.config(menu=yourmenu)\nroot.mainloop()",
+        "detail": "Menus.menu",
+        "documentation": {}
+    },
+    {
+        "label": "m1",
+        "kind": 5,
+        "importPath": "Menus.menu",
+        "description": "Menus.menu",
+        "peekOfCode": "m1 = Menu(yourmenu, tearoff=0) # todo remove the unwanted menu tearoff\nm1.add_command(label=\"Save\", command=myfunc)\nm1.add_command(label=\"Open\", command=myfunc)\nm1.add_separator()  #todo:  underline in the menubar\nm1.add_command(label=\"New Project\", command=myfunc)\nyourmenu.add_cascade(label=\"File\", menu=m1)\nroot.config(menu=yourmenu)\nroot.mainloop()",
+        "detail": "Menus.menu",
         "documentation": {}
     },
     {
