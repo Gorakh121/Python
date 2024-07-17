@@ -7,7 +7,6 @@ def rgb_to_hex(r, g, b):
 color1 = '#262726'
 
 root = Tk()
-root.wm_iconbitmap("Tkinter/notepad.png")
 root.geometry("444x444")
 root.title("Notepad")
 
